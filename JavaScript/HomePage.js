@@ -8,7 +8,7 @@ var LeftHomePage = [
 ]
 var itemHome = [
   {
-    "link":"../HTML/StarKNY.html",
+    "link":"../HTML/TorSorkran.html",
     "itemImg":"../img/in_house.jpg",
     "itemTitle":"ព្រះរាជពិធី ត្រស្តិសង្ក្រាន្ត",
     "itemButton":"អានបន្ត"
