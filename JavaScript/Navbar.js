@@ -71,7 +71,7 @@ var navbarItem = [
         "top-sub-navbar":"ប្រវត្តិ គោមផ្កាយ"
       },
       {
-        "link-sub-name-nav":"",
+        "link-sub-name-nav":"../HTML/TorSorkran.html",
         "top-sub-navbar":"ព្រះរាជពិធី ត្រស្តិសង្ក្រាន្ត"
       },
       ]
