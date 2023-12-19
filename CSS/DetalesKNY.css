@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Khmer OS Kien Svay';
+    font-weight: 400;
+}
+.details{
+    width: 90%;
+    margin: auto;   
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    background-color: #e3e0e01e;
+}
+.details .detals-left{
+    width: 70%;
+    height: auto;
+}
+.detals-txt{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+.detals-txt .detals-top-left{
+    width: 70%;
+    height: 100%;
+    padding: 15px 0;
+    border: 1px solid;  
+}
+.text-title h4{
+    font-weight: 800;
+    font-family: 'Khmer OS Muol';
+    padding-left: 20%;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.detals-top-left p{
+    font-size: 1em;
+    padding-left: 10px;
+    font-family: 'Khmer OS Battambang';
+    
+}
+.detals-top-left p span{
+    font-weight: 800;
+    font-family: 'Khmer OS Battambang';
+}
+.detals-top-right{
+    width: 30%;
+    height: 173px;
+    box-shadow: 1px 1px 5px 0 #adadad;
+}
+.txt-right{
+    padding: 52px 0;
+    height: 233px;
+}
+.detals-top-right p{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: 'Khmer OS Battambang';
+    color: white;
+}
+.detals-top-right a{
+    display: block;
+    padding-left: 10px;
+    text-align: center;
+    color: white;
+}
+.details .detals-right{
+    width: 30%;
+    height: 600px;
+}
+@media screen and (max-width: 500px){
+    *{
+        font-size: 12px;
+    }
+    .details{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 10px;
+    }
+    .detals-right{
+        display: none;
+    }
+    .detals-txt{
+        width: 100%;
+    }
+    .details .detals-left{
+        width: 100%;
+        height: auto;
+    }
+    .txt-right {
+        height: 175px;
+    }
+    .detals-txt .detals-top-left {
+        width: 70%;
+        height: 100%;
+        padding: 15px 0;
+        border: 0;
+    }
+    .text-title h4 {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .detals-top-right{
+        width: 30%;
+        margin-top: 20px;
+    }   
+}
+
+@media screen and (min-width: 750px) and (max-width: 1200px){
+    *{
+        font-size: 25px;
+        text-align: justify ;
+    }
+    .details{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 10px;
+    }
+    .detals-right{
+        display: none;
+    }
+    .detals-txt{
+        width: 100%;
+    }
+    .details .detals-left{
+        width: 100%;
+        height: auto;
+    }
+    .txt-right {
+        height: 290px;
+    }
+    .txt-right p{
+        margin-top: 40px;
+        padding: 10px;
+    }
+    .detals-txt .detals-top-left {
+        width: 80%;
+        height: 100%;
+        padding: 15px 0;
+        border: 0;
+    }
+    .text-title h4 {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .detals-top-right{
+        width: 40%;
+        height: 290px;
+        margin-top: 20px;
+    }   
+}
