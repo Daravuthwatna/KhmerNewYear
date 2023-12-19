@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-body {
+  width: 100%;
+  background-color: #3A6EA5;
+}
+.FirstHome-left {
+  float: left;
+}
+.FirstHome-left .left-home .left-title {
+  margin: 0px 150px;
+}
+
+.FirstHome-left .left-home img {
+  width: 250px;
+}
+.FirstHome-left .left-home h1 {
+  font-size: 60px;
+  color: white;
+}
+.FirstHome-left .left-home h2 {
+  font-size: 55px;
+  color: white; 
+}
+.FirstHome-left .left-home button {
+  background-color: #FF6700;
+  border: none;
+  padding: 3px 25px;
+  border-radius: 20px;
+  color: white;
+}
+.FirstHome-right img {
+  border-radius: 100% 0px 0px 0px;
+  float: right;
+  width: 660px;
+}
+
+
+.BodyHome, .BodySecond {
+  overflow-y: hidden;
+  position: relative;
+  width: 100%;
+  height: 740px;
+}
+.BodyHome-left p,
+.thidPage p {
+  font-size: 30px;
+  padding: 10px 40px;
+}
+.BodyHome-right img,
+.BodySecond-left img {
+  border-radius: 0% 0% 100% 0%;
+  float: right;
+  width: 660px;
+}
+.body-background {
+  width: 100%;
+  height: 310px;
+  background-color: #3A6EA5;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 0;
+}
+.BodyHomeItem {
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-around;
+
+}
+.BodyHomeItem img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.BodyHomeItem li {
+  list-style: none;
+  width: 300px;
+  height: 450px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.596);
+  border-radius: 20px;
+  background-color: #82bcefc4;
+  display: grid;
+  place-items: center;
+}
+.BodyHomeItem li:hover {
+  background-color: #82bcef;
+  transition: 0.5s;
+}
+.BodyHomeItem button {
+  background-color: #FF6700;
+  border: none;
+  padding: 3px 25px;
+  border-radius: 20px;
+  color: white;
+}
+.BodySecondItem {
+  width: 1100px;
+  height: 500px;
+  background-color: #82bcefbb;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.BodySecondItem-right {
+  display: grid;
+  place-items: center;
+}
+.BodySecondItem-right img {
+  width: 340px;
+  height: 470px;
+  margin: 15px 0;
+  border-radius: 0px 20px 20px 0px;
+  object-fit: cover;
+}
+.BodySecondItem-left {
+  padding: 20px;
+}
+.BodySecondItem-left h2 {
+  font-size: 30px;
+  padding: 10px;
+}
+.BodySecondItem-left p {
+  background-color: white;
+  padding: 60px;
+  text-align: justify;
+  border-radius: 10px;
+}
+.KhmerGame {
+  list-style-type: none;
+  text-align: center;
+}
+.KhmerGame li{
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #82BCEF;
+  margin: 25px;
+  border-radius: 50px;
+}
+.KhmerGame li p {
+  font-size: 20px;
+  color: black;
+  letter-spacing: 1px;
+  padding: 5px;
+  transition:all 0.5s linear;
+}
+.footer {
+  width: 100%;
+  height: 180px;
+  background-color: #3A6EA5;
+  border-radius: 35px 35px 0px 0px;
+}
