@@ -1,0 +1,218 @@
+@media screen and (max-width: 500px) {
+  .FirstHome-right img {
+    display: none;
+  }
+  .FirstHome-left .left-home .left-title {
+    margin: 0;
+    height: 64vh;
+  }
+  .FirstHome-left .left-home {
+    display: grid;
+    place-items: center;
+  }
+  .FirstHome-left .left-home img {
+    width: 50vw;
+  }
+  .FirstHome-left .left-home h1 {
+    font-size: 15vw;
+    display: grid;
+    place-items: center;
+  }
+  .FirstHome-left .left-home h2 {
+    font-size: 10vw;
+    display: grid;
+    place-items: center;
+  }
+  .FirstHome-left .left-home button {
+    width: 80vw;
+    height: 5vh;
+    margin-top: 5vh;
+  }
+
+  .BodyHome {
+    height: 200vh;
+  }
+  .BodyHome-left p {
+    text-align: center;
+    margin: 5px 0;
+  }
+  .BodyHomeItem {
+    display: grid;
+    place-items: center;
+    margin: 20px 0;
+  }
+  .BodyHomeItem li {
+    margin: 10px 0;
+  }
+  .BodySecond {
+    margin-top: 30px;
+    width: 95vw;
+    height: 100vh;
+  }
+  .BodySecondItem {
+    width: 95vw;
+    height: 100vh;
+  }
+  .BodySecondItem-left {
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+  }
+  .BodySecondItem-left p {
+    padding: 40px;
+    display: grid;
+    place-items: center;
+  }
+  .BodySecondItem-right {
+    display: none;
+  }
+  .thidPage {
+    display: grid;
+    place-items: center;
+    margin: 20px 0;
+    overflow-x: scroll;
+  }
+  .KhmerGame {
+    width: 150vw;
+  }
+  .KhmerGame li {
+    display: inline-table;
+    padding: 5px;
+    margin: 10px;
+  }
+  .KhmerGame li p {
+    font-size: 15px;
+    padding: 5px;
+    transition:all 0.5s linear;
+  }
+
+  /*===============================================*/
+
+  .HomeCharKNY {
+    padding: 10px;
+  }
+  .title h2 {
+    text-align: center;
+  }
+  .CharactersKNY li {
+    font-size: 10px;
+    padding-left: 4vw;
+  }
+  #double li {
+    width: 100%;
+  }
+  .HomeCharKNY img {
+    display: grid;
+    place-items: center;
+    width: 300px;
+  }
+  .Paragraph1 p,
+  .Paragraph2 p,
+  .Paragraph1-1 p, 
+  .Paragraph1-2 p,
+  .Paragraph2-1 p,
+  .list1-1,
+  .list1-2{
+     /* padding: 2px; */
+     text-align: start;
+     font-size: 14px;
+  }
+  .KNYDay2 {
+    width: 100%;
+  }
+  .KNYDay2 .Paragraph2-1 img{
+    display: grid;
+    place-items: center;
+    width: 300vw;
+  }
+  .rightMenu {
+    display: none;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 1200px){
+  .FirstHome-right img {
+    display: none;
+  }
+  .FirstHome-left .left-home .left-title {
+    margin: 0;
+    height: 64vh;
+  }
+  .FirstHome-left .left-home {
+    display: grid;
+    place-items: center;
+  }
+  .FirstHome-left .left-home img {
+    width: 50vw;
+  }
+  .FirstHome-left .left-home h1 {
+    font-size: 15vw;
+    display: grid;
+    place-items: center;
+  }
+  .FirstHome-left .left-home h2 {
+    font-size: 10vw;
+    display: grid;
+    place-items: center;
+  }
+  .FirstHome-left .left-home button {
+    width: 80vw;
+    height: 5vh;
+    margin-top: 5vh;
+  }
+  .BodyHomeItem li {
+    width: 250px;
+    height: 400px;
+  }
+
+
+  .BodySecondItem {
+    margin: 10px 0;
+    width: 95vw;
+    height: 50vh;
+  }
+  .BodySecondItem-left {
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+  }
+  .BodySecondItem-left p {
+    margin: 70px 0;
+    padding: 45px;
+    display: grid;
+    place-items: center;
+  }
+  .BodySecondItem-right {
+    display: none;
+  }
+
+
+  .KhmerGame {
+    width: 150vw;
+  }
+  .KhmerGame li {
+    display: inline-table;
+    padding: 5px;
+    margin: 10px;
+  }
+  .KhmerGame li p {
+    font-size: 15px;
+    padding: 5px;
+    transition:all 0.5s linear;
+  }
+
+  /*================================*/
+
+  
+  .KNY-container {
+    width: 100%;
+  }
+  .rightMenu {
+    display: none;
+  }
+  .HomeCharKNY img {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    width: 600px;
+  }
+}
