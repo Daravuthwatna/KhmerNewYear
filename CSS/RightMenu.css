@@ -1,0 +1,43 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.rightMenu {
+  width: 400px;
+  border-left: 1px solid black;
+  margin: 20px 5px;
+  padding: 20px 30px;
+  float: right;
+}
+.rightMenu ul li {
+  list-style: none;
+}
+.rightMenu ul li .title-right-menu {
+  text-decoration: none;
+  font-family: 'Khmer OS Battambang';
+  color: black;
+  font-weight: 550;
+  font-size: 20px;
+}
+.rightMenu ul li .title-right-menu:hover {
+  font-weight: 600px;
+}
+
+.sub-right-menu {
+  margin: 5px 0px;
+}
+.sub-right-menu li {
+  padding: 5px 50px;
+}
+.sub-right-menu li .list-right-menu {
+  text-decoration: none;
+  font-family: 'Khmer OS Battambang';
+  color: black;
+  font-weight: 300;
+  font-size: 15px;
+}
+.sub-right-menu li .list-right-menu:hover {
+  font-weight: 600px;
+  color: #469eeaa8;
+}
