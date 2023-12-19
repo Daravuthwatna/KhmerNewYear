@@ -14,7 +14,7 @@ var leftMenu = [
     {"menu-link":"", "name-menu":"ប្រវត្តិនៃរបាំត្រុដិ"},
     {"menu-link":"../HTML/HistoryKNY.html", "name-menu":"ប្រវត្តិនៃបុណ្យចូលឆ្នាំខ្មែរ"},
     {"menu-link":"../HTML/StarKNY.html", "name-menu":" ប្រវត្តិ គោមផ្កាយ"},
-    {"menu-link":"", "name-menu":" ប្រវត្តិ ព្រះរាជពិធី ត្រស្តិសង្ក្រាន្ត"},
+    {"menu-link":"../HTML/TorSorkran.html", "name-menu":" ប្រវត្តិ ព្រះរាជពិធី ត្រស្តិសង្ក្រាន្ត"},
   ]},
 ]
 GetLeftMenu()
