@@ -1,0 +1,24 @@
+.KNY-container{
+  width: 90%;
+  background-color: #f3f3f3;
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.237);
+}
+.KNYDay2 {
+  width: 100%;
+  padding: 30px;
+}
+.KNYDay2 .title {
+  font-size: 16px;
+  padding: 15px 0px;
+  font-family: 'Khmer OS Muol';
+}
+.KNYDay2 .Paragraph2-1 p {
+  padding: 20px 10px;
+  font-family: 'Khmer OS Battambang';
+  text-align: justify;
+}
+.KNYDay2 .Paragraph2-1 img {
+  width: 50vw;
+  border-radius: 20px;
+  margin: 25px;
+}
